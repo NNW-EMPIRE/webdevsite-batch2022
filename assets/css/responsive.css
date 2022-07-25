@@ -41,12 +41,27 @@ body{
    width: 20%;
  
 }
+.navlink{
+    text-decoration: none;
+    color: darkorange;   
+}
+.navlink:hover{
+    text-decoration: underline;
+    color: white;
+}
+.navlink:active{
+    color: burlywood;
+
+}
 @media (min-width:680px){
     .hamburger{
         display: none;
     }
     .imgtxt{
         font-size: 7vh;
+    }
+    .logodiv{
+        font-size: 2vw;
     }
     
 }
