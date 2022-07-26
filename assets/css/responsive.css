@@ -2,7 +2,7 @@
     position: fixed;
     top:0%;
     width: 100%;
-    z-index: 2;
+    z-index: 99;
 }
 body{
     margin: 0%;
@@ -30,7 +30,7 @@ body{
 }
 .li{
     padding-right: 1vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     
 }
 .hamburger{
@@ -53,6 +53,29 @@ body{
     color: burlywood;
 
 }
+.aboutus{
+    color: #4b0076f8;
+    padding: 10vw;
+    padding-top: 2vw;
+    font-size: 2vw;
+    background-color: rgba(164, 198, 250, 0.39);
+    word-spacing: 1vw;
+}
+.aboutcompany{
+    display: flex;
+   flex-wrap: initial;
+   padding: 2vw;
+}
+.acimg{
+    flex: 1000px;
+}
+.acd{
+    flex: 5;
+    font-size: 2vw;
+}
+.pics{
+    max-width: 100%;
+}
 @media (min-width:680px){
     .hamburger{
         display: none;
@@ -62,6 +85,9 @@ body{
     }
     .logodiv{
         font-size: 2vw;
+    }
+    .acimg{
+        flex: 100%;
     }
     
 }
