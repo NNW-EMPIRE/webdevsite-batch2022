@@ -43,11 +43,12 @@ body{
 }
 .navlink{
     text-decoration: none;
-    color: darkorange;   
+    color: darkorange;
+    display: block;   
 }
 .navlink:hover{
     text-decoration: underline;
-    color: white;
+    color: black;
 }
 .navlink:active{
     color: burlywood;
@@ -58,26 +59,67 @@ body{
     padding: 10vw;
     padding-top: 2vw;
     font-size: 2vw;
-    background-color: rgba(164, 198, 250, 0.39);
+    background-color: rgba(164, 198, 250, 0.103);
     word-spacing: 1vw;
 }
 .aboutcompany{
+    font-size: 2vw;
     display: flex;
-   flex-wrap: initial;
-   padding: 2vw;
+    flex-wrap: wrap;
+    
+ 
 }
 .acimg{
-    flex: 1000px;
+    flex: 50%;
+  
+    right: 0%;
+    
 }
-.acd{
-    flex: 5;
-    font-size: 2vw;
+#aboutimg{
+    width: 100%;
+    
+}
+.abd{
+    flex: 45%;
+   
+    padding: 2vw;
+    padding-top: 0%;
+ 
+    
 }
 .pics{
-    max-width: 100%;
+   
 }
+.owners{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vw;
+  }
+  .boxowners{
+      flex: 25%;
+    
+  }
+  .card{
+    box-shadow: black;
+    margin: 1.5vw;
+    background-color: rgba(223, 223, 224, 0.041);
+    padding: 0px;
+    position: relative;
+    border: 1px solid #4b0076f8;
+    border-radius: 10px;
+
+  }
+  .imgcard{
+    max-width: 100%;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+
 @media (min-width:680px){
-    .hamburger{
+    .hamburger, .abouth1, .mylinks{
         display: none;
     }
     .imgtxt{
@@ -86,15 +128,36 @@ body{
     .logodiv{
         font-size: 2vw;
     }
-    .acimg{
-        flex: 100%;
-    }
+
     
 }
 @media (max-width:680px) {
-    .menuli{
+    .menuli, .abouth2, .mylinks{
         display: none;
     }
-
+    .abd, .acimg{
+        flex: 100%;
+    }
+    .container{
+        height: 250px;
+    }
+    .aboutus, .aboutcompany{
+        font-size: 3vw;
+       
+    }
+    .menu{
+        flex-direction: column;
+       align-items: flex-start;
+    }
+   .menuli{
+       flex-direction: column;
+   }
+   .boxowners{
+    flex: 100%;
+    width: 100%;
+    }
+    .card{
+        margin: 2rem;
+    }
     
 }

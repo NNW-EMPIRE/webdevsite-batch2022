@@ -42,3 +42,21 @@ li{
   font-weight: 900;
   height: 20%;
 }
+li{
+  display: block;
+}
+ li:hover{
+  background-color: #ffff;
+  transition: .5s;
+}
+.students{
+  
+  font-size: 3vw;
+  color: #4b0076fb;
+}
+.cardtitle{
+  color: #4b0076;
+}
+.studentdiv{
+  background-color: rgba(164, 198, 250, 0.103);
+}
