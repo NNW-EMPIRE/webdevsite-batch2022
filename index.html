@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webdev</title>
-  
+ 
 	<link rel="stylesheet" href="assets/fonts/font-awesome.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -15,7 +15,7 @@
             <nav>
                 <div class="nav">
                     <div class="logodiv"  >
-                        <a href="#home" class="brand">DEV StUDENTS</a>
+                        <a href="#home" class="brand">NNWwebStudents</a>
                     </div>
                     
                     <div class="menu" id="myNav">
@@ -28,13 +28,22 @@
                         </ul>
                     </div>
                     <div class="hamburger">
-                        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                      <!--  <button type="button" onclick="menu()">
+                            &#9776;
+                        </button>--> 
+                       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
                     </div>
+                    <p id="p" style="background-color: aqua; padding-top:10%; color:black;">
+
+                    </p>
                 </div>
             </nav>
+           
+               
+        
         </header>
-        <section>
-            <div class="container" style="background-image: url('./assets/img/mmm2.jpg') ">
+       <section>
+            <div class="container" style="background-image: url('./assets/img/mmm2.jpg')  ">
                 <div class="overla">
                   
                 </div>
@@ -58,10 +67,14 @@
                 </div>
                 <div class="aboutcompany">
                     <div class="acimg">
-                        <img src="./assets/img/mmm2.jpg" class="pics" alt="">
+                        <h1 class="abouth1 students" >
+                            About our Company
+                        </h1>
+                      
+                        <img src="./assets/img/avatar1.jpg"class="pics" alt="" id="aboutimg">
                     </div>
                     <div class="abd">
-                        <h1>
+                        <h1 class="abouth2 students">
                             About our Company
                         </h1>
                         <p> 
@@ -69,64 +82,64 @@
                             to help the community grow. Some of this services includ graphic design, web design and development,
                             software and app development and more. They are open 5days a week from 8 am till 5 pm.
                         </p>
-                    </div>
-                   
+                    </div>   
                 </div>    
             </div>
-            <div>
-                <div>
+            <div class="studentdiv">
+                <div align="center" class="students">
                     <h1>
-                        web dev students
+                        Web Dev Students
                     </h1>
                 </div>
                 <div>
                     <div>
-                        <img src="" alt="">
+                        folish students
                     </div>
-                    <div>
-                        <h2>
-                            OVETTA
-                        </h2>
-                        <p>
-                            i am OVETTA, web dev student under nnw undergoing a 3 month training in web development, 
-                            app development and cyber security, i have been here for 2 months now and my training has been going
-                            quite well ,i have learnt alot and still ready to learn alot 
-                        </p>
+                </div>
+            </div>
+            
+            <div class="Millen">
+
+            </div>
+            <div align="center" class="students">
+                <h1>
+                    Owners and Runners of NNW Empire
+                </h1>
+            </div>
+            <div class="owners" align="center">
+                <div class="boxowners">
+                    <div class="card"><img class="imgcard" src="./assets/img/avatar1.jpg">
+                        <div class="cardbody">
+                            <h4 class="cardtitle">Sir Nerry</h4>
+                            <p class="cardtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>                     
+                        </div>
+                    </div>
+                </div>
+                <div class="boxowners">
+                    <div class="card"><img class="imgcard" src="./assets/img/avatar1.jpg">
+                        <div class="cardbody">
+                            <h4 class="cardtitle">Madam Brenda</h4>
+                            <p class="cardtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>                     
+                        </div>
+                    </div>
+                </div>
+                <div class="boxowners">
+                    <div class="card"><img class="imgcard" src="./assets/img/avatar1.jpg">
+                        <div class="cardbody">
+                            <h4 class="cardtitle">Aunty Microsoft</h4>
+                            <p class="cardtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>                     
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
         </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
+    <script src="./assets/js/style.js">
         </script>
 
 </body>
