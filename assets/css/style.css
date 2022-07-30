@@ -54,6 +54,12 @@ li{
   font-size: 3vw;
   color: #4b0076fb;
 }
+.students:hover{
+  font-size: 3.05vw;
+  text-rendering: optimizeSpeed;
+  transition: 2s;
+  color: linear-gradient(180deg, red, yellow);
+}
 .cardtitle{
   color: #4b0076;
 }

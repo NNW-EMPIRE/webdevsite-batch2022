@@ -6,6 +6,7 @@
 }
 body{
     margin: 0%;
+  
 }
 .nav{
    
@@ -87,9 +88,6 @@ body{
  
     
 }
-.pics{
-   
-}
 .owners{
     display: flex;
     flex-wrap: wrap;
@@ -116,10 +114,44 @@ body{
     border-top-left-radius: 10px;
 }
 
+.description{
+    display: flex;
+    flex-wrap: wrap;
+}
+.millenimg{
+    max-width: 75%;
+
+}
+.runners{
+    background-color: rgba(164, 198, 250, 0.055);
+}
+.bi{
+    margin: 1rem;
+    size: 2rem;
+}
+.bi:hover{
+    background-color: #4b0076f8;
+    color: chocolate;
+    border-radius: 10px;
+    width: 50;
+    height: 50;
+    padding: 1rem;
+   transition: 0.15s;
+
+}
+.media{
+    display: flex;
+}
+.keziah{
+    font-size: 5px;
+    
+    
+}
+
 
 
 @media (min-width:680px){
-    .hamburger, .abouth1, .mylinks{
+    .hamburger, .abouth1, .mylinks, .deslist{
         display: none;
     }
     .imgtxt{
@@ -128,6 +160,7 @@ body{
     .logodiv{
         font-size: 2vw;
     }
+    
 
     
 }
@@ -159,5 +192,8 @@ body{
     .card{
         margin: 2rem;
     }
-    
+    .aboutdescription{
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
