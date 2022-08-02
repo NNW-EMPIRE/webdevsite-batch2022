@@ -1,0 +1,273 @@
+.header{
+    position: fixed;
+    top:0%;
+    width: 100%;
+    z-index: 99;
+}
+body{
+    margin: 0%;
+  
+}
+.nav{
+   
+   height: 75px;
+    display: flex;
+}
+
+.logodiv{
+    width: 49%;
+   padding: 25px;
+   font-size: 4vw;
+}
+.menu{
+ float: left;
+ width: 50%;
+ 
+
+}
+.menuli{ 
+  text-align:center;
+  display:flex;
+}
+.li{
+    padding-right: 1vw;
+    font-size: 1.2vw;
+    display: block;
+    
+}
+.li:hover{
+    color: aquamarine;
+}
+.hamburger{
+    color: darkorange;
+    display: grid;
+    place-items: center;
+    float: left;
+   width: 20%;
+ 
+}
+.navlink{
+    text-decoration: none;
+    color: darkorange;
+    display: block;   
+}
+.navlink:hover{
+    text-decoration: underline;
+    color: black;
+}
+.navlink:active{
+    color: burlywood;
+
+}
+.aboutus{
+    color: #4b0076f8;
+    padding: 10vw;
+    padding-top: 2vw;
+    font-size: 2vw;
+    background-color: rgba(164, 198, 250, 0.103);
+    word-spacing: 1vw;
+}
+.aboutcompany{
+    font-size: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+ 
+}
+.acimg{
+    flex: 50%;
+  
+    right: 0%;
+    
+}
+#aboutimg{
+    width: 100%;
+    
+}
+.abd{
+    flex: 45%;
+   
+    padding: 2vw;
+    padding-top: 0%;
+ 
+    
+}
+.owners{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vw;
+  }
+  .boxowners{
+      flex: 25%;
+    
+  }
+  .card{
+    box-shadow: black;
+    margin: 1.5vw;
+    background-color: rgba(223, 223, 224, 0.041);
+    padding: 0px;
+    position: relative;
+    box-shadow: 3px 2px 2px 3px #888888;
+    border-radius: 10px;
+
+  }
+  .imgcard{
+    max-width: 100%;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+}
+.millenimg{
+    max-width: 75%;
+
+}
+.millendiv{
+    box-shadow: 3px 2px #888888;
+    border-radius: 1rem;
+}
+.runners{
+    background-color: rgba(164, 198, 250, 0.055);
+}
+.bi{
+    margin: 1rem;
+    size: 2rem;
+}
+.bi:hover{
+    background-color: #4b0076f8;
+    color: chocolate;
+    border-radius: 10px;
+    width: 40;
+    height: 40;
+    padding: 0.5rem;
+   transition: 0.15s;
+
+}
+.bi-github{
+    color: black;
+}
+.bi-whatsapp{
+    color: green;
+}
+.bi-linkedin{
+    color: blue;
+}
+.media{
+    display: flex;
+}
+.keziah{
+    font-size: 5px;   
+}
+.contactbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(201, 119, 233, 0.856);
+    width: 60%;
+    padding: 20px;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
+.contactdiv{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    margin-top: -150px;
+    height: 40vw;
+    
+}
+.contact1{
+    flex: 50%;
+}
+.contact{
+    font-size: 3vw;
+    
+  }
+.top1{
+    word-break: break-all;
+    flex: 30%;
+    padding: 1vw;
+}
+.input{
+    width: 90%;
+    height: 4vw;
+    margin-bottom: 2vw;
+}
+input::placeholder{
+    font-size: 2vw;
+}
+.btn{
+    font-size: 2vw;
+}
+textarea::placeholder{
+    font-size: 2vw;
+}
+
+
+@media (min-width:680px){
+    .hamburger, .abouth1, .mylinks, .deslist{
+        display: none;
+    }
+    .imgtxt{
+        font-size: 7vh;
+    }
+    .logodiv{
+        font-size: 2vw;
+    }
+    
+
+    
+}
+@media (max-width:680px) {
+    .menuli, .abouth2, .mylinks{
+        display: none;
+    }
+    .abd, .acimg{
+        flex: 100%;
+    }
+    .container{
+        height: 250px;
+    }
+    .aboutus, .aboutcompany{
+        font-size: 3vw;
+       
+    }
+    .menu{
+        flex-direction: column;
+       align-items: flex-start;
+    }
+   .menuli{
+       flex-direction: column;
+   }
+   .boxowners{
+    flex: 100%;
+    width: 100%;
+    }
+    .card{
+        margin: 2rem;
+    }
+    .aboutdescription{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .top1{
+        flex: 100%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
