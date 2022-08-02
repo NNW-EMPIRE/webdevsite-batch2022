@@ -9,7 +9,6 @@
 }
 
 li{
- 
   list-style: none;
 }
 
@@ -37,32 +36,45 @@ li{
 .imgtxt{
   z-index: 1;
   color: #f7d28d ;
-  padding: 13vw;
+  padding: 10vw;
   font-size: 5vw;
   font-weight: 900;
   height: 20%;
 }
-li{
-  display: block;
-}
- li:hover{
-  background-color: #ffff;
-  transition: .5s;
-}
 .students{
   
-  font-size: 3vw;
+  font-size: 1.7vw;
   color: #4b0076fb;
 }
 .students:hover{
-  font-size: 3.05vw;
-  text-rendering: optimizeSpeed;
+  font-size: 1.8vw;
   transition: 2s;
-  color: linear-gradient(180deg, red, yellow);
 }
 .cardtitle{
   color: #4b0076;
 }
 .studentdiv{
   background-color: rgba(164, 198, 250, 0.103);
+}
+.footer{
+  background-color: #4b0076;
+  position: absolute;
+  width: 100%;
+  
+}
+.footerbottom{
+  color: #f7f6f4;
+  border-top: 1px solid #f8a10041;
+}
+.footertop{
+  display: flex;
+  flex-wrap: wrap;
+  color: #f8a100;
+}
+.spacer{
+  height: 100px;
+}
+.hrstyle{
+  width: 20%;
+  border: 1px dashed #4b0076;
 }

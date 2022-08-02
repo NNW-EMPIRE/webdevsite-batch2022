@@ -32,7 +32,11 @@ body{
 .li{
     padding-right: 1vw;
     font-size: 1.2vw;
+    display: block;
     
+}
+.li:hover{
+    color: aquamarine;
 }
 .hamburger{
     color: darkorange;
@@ -103,7 +107,7 @@ body{
     background-color: rgba(223, 223, 224, 0.041);
     padding: 0px;
     position: relative;
-    border: 1px solid #4b0076f8;
+    box-shadow: 3px 2px 2px 3px #888888;
     border-radius: 10px;
 
   }
@@ -122,6 +126,10 @@ body{
     max-width: 75%;
 
 }
+.millendiv{
+    box-shadow: 3px 2px #888888;
+    border-radius: 1rem;
+}
 .runners{
     background-color: rgba(164, 198, 250, 0.055);
 }
@@ -133,21 +141,81 @@ body{
     background-color: #4b0076f8;
     color: chocolate;
     border-radius: 10px;
-    width: 50;
-    height: 50;
-    padding: 1rem;
+    width: 40;
+    height: 40;
+    padding: 0.5rem;
    transition: 0.15s;
 
+}
+.bi-github{
+    color: black;
+}
+.bi-whatsapp{
+    color: green;
+}
+.bi-linkedin{
+    color: blue;
 }
 .media{
     display: flex;
 }
 .keziah{
-    font-size: 5px;
-    
+    font-size: 5px;   
+}
+.contactbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(201, 119, 233, 0.856);
+    width: 60%;
+    padding: 20px;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
+.contactdiv{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    margin-top: -150px;
+    height: 40vw;
     
 }
-
+.contact1{
+    flex: 50%;
+}
+.contact{
+    font-size: 3vw;
+    
+  }
+.top1{
+    word-break: break-all;
+    flex: 30%;
+    padding: 1vw;
+}
+.input{
+    width: 90%;
+    height: 4vw;
+    margin-bottom: 2vw;
+}
+input::placeholder{
+    font-size: 2vw;
+}
+.btn{
+    font-size: 2vw;
+}
+textarea::placeholder{
+    font-size: 2vw;
+}
 
 
 @media (min-width:680px){
@@ -195,5 +263,11 @@ body{
     .aboutdescription{
         text-align: justify;
         text-justify: inter-word;
+    }
+    .top1{
+        flex: 100%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
     }
 }
