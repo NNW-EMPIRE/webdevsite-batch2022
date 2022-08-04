@@ -1,0 +1,70 @@
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="background style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Ghislain's page</title>
+</head>
+
+<body>
+    <!--header-->
+    <nav class="navbar">
+    <div class="brtitle">NNWstudent</div>
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span> 
+    <div class="navbar-links">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+        <!--header ends-->
+    </div>
+    </nav>
+    <!--body starts-->
+    <!--first div-->
+    <div class="kk">
+        <h1 style="color: white; font-size: 3vw;" align="center">Welcome to Ghislain's page</h1>
+    </div>
+    <!--end of first div-->
+    <!--start of second div (description)-->
+    <div class="flex">
+        <div>
+          <img class="img" src="ghis.jpg" alt="">
+        </div>
+        <div class="tt">
+         <ul class="pp">
+            <p class="mm">Name:Kimoh Ghislain</p> 
+             <p class="mm">Email:k.ghislain.m@gmail.com</p> 
+             <p class="mm">Contact Tel:(237) 650 95 68 32</p> 
+             <p class="mm">Works:Graphic designing and webdevelopment</p> 
+         </ul>
+        </div>
+    </div>
+    <div align="center" style="background-color: rgba(47, 45, 47, 0.122);">
+       <p class="vv">My name is Kimoh Ghislain and I am student at NNW Empire learning graphic designer and webdevelopment along side Idris and ovetta, with the aspiration to be a great designer and builder so that I can earn a lot of Money, disprove some friends, help my family,start my own family ,make more money ....so that i can be a part of making the world a better place and maybe go down in History as one of the greatest.</p>
+    </div>
+    <!--end of description-->
+    <!--logo--> 
+     <div>
+        <div align="center">
+          <h1 class="web" style="background-color: rgb(36, 32, 32);">Web Development</h1>
+            
+       </div>
+       <div align="center">
+        <p class="om">Web Development is the building and maintenance of websites; Its work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.Web developers,or 'devs', do this by using a variety of coding languages. The languages the use depends depends on the type of tasks they are performing and the platforms on which they are working.web development skills are in high demand worldwide and well payed to-making development a great career option. Its is one of the easiest accesible higher paid feilds as you do not need a traditional university degree to become qualified. The field web development is generally broken down into front-end(the user-facing side) and back-end(the server side). Lets delve into the details</p>
+        </div>
+    </div>
+      <div>
+        <img class="ii" src="n0c.jpg" alt="">
+    </div>
+    <!--end of logo-->
+    <!-- startnnw-->
+    <div class="ew">
+        <p class="mn">@NNW Empire. Ltd</p>
+    </div>
+<!--end nw-->
+</body>
+</html>
