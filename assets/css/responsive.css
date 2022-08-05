@@ -6,7 +6,7 @@
 }
 body{
     margin: 0%;
-  
+    
 }
 .nav{
    
@@ -123,19 +123,17 @@ body{
     flex-wrap: wrap;
 }
 .millenimg{
-    max-width: 75%;
+    max-width: 85%;
 
 }
-.millendiv{
-    box-shadow: 3px 2px #888888;
-    border-radius: 1rem;
-}
+
 .runners{
     background-color: rgba(164, 198, 250, 0.055);
 }
 .bi{
     margin: 1rem;
-    size: 2rem;
+    size: 2rem; 
+    color: #4b0076f8;;
 }
 .bi:hover{
     background-color: #4b0076f8;
@@ -147,21 +145,16 @@ body{
    transition: 0.15s;
 
 }
-.bi-github{
+/*.bi-github{
     color: black;
 }
 .bi-whatsapp{
     color: green;
 }
 .bi-linkedin{
-    color: blue;
-}
-.media{
-    display: flex;
-}
-.keziah{
-    font-size: 5px;   
-}
+    color: rgba(201, 119, 233, 0.856);
+}*/
+
 .contactbox{
     display: flex;
     flex-wrap: wrap;
@@ -217,6 +210,106 @@ textarea::placeholder{
     font-size: 2vw;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .studentflex{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1vw;
+      width: 100%;
+      position: relative;
+     
+  }
+  .studentdescription{
+    flex: 50%;
+    background-color: #4d136e7e;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 1.5vw;
+
+
+  }
+  .studentimg{
+      flex: 50%;
+      border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  .top1{
+      font-size: 1vw;
+      margin: 0%;
+      padding: 0%;
+      justify-content: center;
+  }
+  .footerdes{
+      justify-content: center;
+      padding: 0.05vw;
+  }
+  .idris{
+    
+    color: rgb(250, 196, 96);
+    font-size: 1.3vw;
+    text-decoration: underline;
+   
+}
+.lists{
+    padding-top: 2vw;
+    
+}
+.oveghis{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.oveghis2{
+    padding: 2vw;
+}
+.idris2{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+}
+.idris3{
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+
+  
 
 @media (min-width:680px){
     .hamburger, .abouth1, .mylinks, .deslist{
@@ -233,7 +326,7 @@ textarea::placeholder{
     
 }
 @media (max-width:680px) {
-    .menuli, .abouth2, .mylinks{
+    .menuli, .abouth2, .mylinks, .contactdes{
         display: none;
     }
     .abd, .acimg{
@@ -270,4 +363,79 @@ textarea::placeholder{
         justify-content: center;
         align-items: center;
     }
+    .studentflex{
+       display: flex;
+        flex-direction: row-reverse;
+    }
+    .students , .cardtitle {
+        font-size: 4vw;
+      }
+    .students:hover{
+        font-size: 4vw;
+    }
+    .bi{
+        width: 20;
+        height: 25;
+    }
+    .bi:hover{
+        width: 25;
+        height: 25;
+    }
+    .contactdiv{
+        position: relative;
+        width: 100%;
+        align-items: center;
+    }
+    .imgtxt{
+        padding:0;
+        margin: 2vw;
+
+    }
+    .contact1{
+        flex: 100%;
+        font-size: 2vw;
+    }
+    .footerbottom{
+        font-size: 3vw;
+    }
+   
+    .footertop{
+        background-color: #9231c7e3;
+        color: #fff;
+    }
+    .top1{
+        font-size: 2vw;
+    }
+    .lists{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .idris{
+        padding: 3px;
+        color: rgb(250, 196, 96);
+        font-size: 5vw;
+        text-decoration: underline;
+       
+    }
+    .footerhead{
+        font-size: 5vw;
+        text-decoration: dashed;
+    }
+    .footerdes{
+        font-size: 3vw ;
+    }
+    .studentdiv{
+        padding: 1.5rem;
+    }
+ 
+}
+@media (max-width:1500px) {
+    .imgtxt{
+        padding:0;
+        margin: 2vw;
+        font-size: 3vw;
+
+    }
+
+
 }

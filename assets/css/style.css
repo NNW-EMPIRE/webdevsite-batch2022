@@ -1,6 +1,6 @@
 
 .nav{
-    background-color:#4b0076a8;
+    background-color:#4b0076c4;
 }
 .brand{
    color:#f8a100;
@@ -19,7 +19,7 @@ li{
   width: 100%;
   height: 500px;
  position: relative;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   z-index: 0;
   background-color: #4b007633;
@@ -45,9 +45,10 @@ li{
   
   font-size: 1.7vw;
   color: #4b0076fb;
+  text-decoration: underline;
 }
 .students:hover{
-  font-size: 1.8vw;
+  font-size: 1.7vw;
   transition: 2s;
 }
 .cardtitle{
@@ -55,6 +56,7 @@ li{
 }
 .studentdiv{
   background-color: rgba(164, 198, 250, 0.103);
+  padding: 6rem;
 }
 .footer{
   background-color: #4b0076;
