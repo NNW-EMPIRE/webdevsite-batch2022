@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: orange;
+}
+.links{
+    font-size: 3vw;
+    text-align: center;
+    transition: 2s;
+}
+.my:hover {
+    font-size: 3vw;
+    color: purple;
+    transition: 3s;
+}
+.works:hover {
+     font-size: 3vw;
+     color: goldenrod;
+     transition: 3s;
+}
+.mile{
+    font-size: 3vw;
+    color: white;
+}
+.two{
+    font-size: 3vw;
+    color: white;
+}
+.nkwen{
+    font-size: 3vw;
+    color: white;
+}
+.foter{
+    display: flex;
+    opacity: 2px;
+    color: white;
+}
+.logo{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    word-spacing: 40px;
+    margin-bottom: auto;
+}
+.address{
+    font-size: 2vw;
+    color: white;
+}
+.aboutus{
+    word-spacing: 0px;
+}
+.aboutme:hover {
+    font-size: 3vw;
+    color: purple;
+    transition: 3s;
+}
+.boutme:hover {
+    font-size: 3vw;
+    color: purple;
+    transition: 3s;
+}
+img{
+    border-radius: 20%;
+    max-width: 30%;
+    max-height: 40%;
+}
+.text{
+    color: white;
+}
+.pictures{
+    display: flex;
+    max-width: 170%px;
+    max-height: 200%;
+}
