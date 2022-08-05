@@ -425,7 +425,26 @@ textarea::placeholder{
         font-size: 3vw ;
     }
     .studentdiv{
-        padding: 1.5rem;
+        padding: 0rem;
+    }
+    .container{
+        background-size: contain;
+    }
+    .cardtext{
+        font-size: 3.5vw;
+    }
+    .cardtitle{
+        font-size: 6vw;
+    }
+    .studenttext{
+        font-size: 2vw;
+    }
+    .contactdiv{
+        position: relative;
+        
+        width: 100%;
+        align-items: center;
+        
     }
  
 }
@@ -436,6 +455,8 @@ textarea::placeholder{
         font-size: 3vw;
 
     }
-
+    .container{
+        background-size: contain;
+    }
 
 }
