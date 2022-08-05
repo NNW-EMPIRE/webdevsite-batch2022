@@ -2,10 +2,17 @@ body{
     background-color: rgb(0, 0, 0);
     color: orange;
 }
+.logo{
+    display: flex;
+ 
+}
 .links{
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     transition: 2s;
+    padding-left: 2vw;
+    flex: 65%;
+    background-color: aquamarine;
 }
 .my:hover {
     font-size: 3vw;
@@ -34,20 +41,16 @@ body{
     opacity: 2px;
     color: white;
 }
-.logo{
-    display: flex;
-    padding: 20px;
-    margin-top: 20px;
-    word-spacing: 40px;
-    margin-bottom: auto;
+
+.logodiv{
+    flex: 35%;
+    margin: 0.5vw;
 }
 .address{
     font-size: 2vw;
     color: white;
 }
-.aboutus{
-    word-spacing: 0px;
-}
+
 .aboutme:hover {
     font-size: 3vw;
     color: purple;
@@ -60,8 +63,7 @@ body{
 }
 img{
     border-radius: 20%;
-    max-width: 30%;
-    max-height: 40%;
+   
 }
 .text{
     color: white;
@@ -70,4 +72,32 @@ img{
     display: flex;
     max-width: 170%px;
     max-height: 200%;
+}
+.pagelink{
+    color: white;
+    padding-right: 2rem;
+}
+.pagelink:hover{
+    color: purple;
+}
+.myprofile{
+    display: flex;
+}
+.profile{
+    flex: 30%;
+}
+.profile2{
+    flex: 60%;
+}
+.profile2contain{
+    padding: 2vw;
+    padding-top: 8vw;
+}
+.aboutmediv{
+    padding: 4vw;
+    
+}
+.description{
+    font-size: 1.5vw;
+    text-align: justify;
 }
