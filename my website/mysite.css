@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: orange;
+  margin: 0;
+}
+.logo {
+  display: flex;
+}
+.links {
+  font-size: 2.5vw;
+  text-align: center;
+  transition: 2s;
+  padding-left: 2vw;
+  flex: 65%;
+}
+.my:hover {
+  font-size: 3vw;
+  color: purple;
+  transition: 3s;
+}
+.works:hover {
+  font-size: 3vw;
+  color: goldenrod;
+  transition: 3s;
+}
+.mile {
+  font-size: 3vw;
+  color: white;
+}
+.two {
+  font-size: 3vw;
+  color: white;
+}
+.nkwen {
+  font-size: 3vw;
+  color: white;
+}
+.foter {
+  display: flex;
+  opacity: 2px;
+  color: white;
+}
+
+.logodiv {
+  flex: 35%;
+  margin: 0.5vw;
+}
+.address {
+  font-size: 2vw;
+  color: white;
+}
+
+.aboutme:hover {
+  font-size: 3vw;
+  color: purple;
+  transition: 3s;
+}
+.boutme:hover {
+  font-size: 3vw;
+  color: purple;
+  transition: 3s;
+}
+img {
+  border-radius: 20%;
+}
+.text {
+  color: white;
+}
+.pictures {
+  display: flex;
+  max-width: 170%px;
+  max-height: 200%;
+}
+.pagelink {
+  color: white;
+  padding-right: 2rem;
+}
+.pagelink:hover {
+  color: purple;
+}
+.myprofile {
+  display: flex;
+}
+.profile {
+  flex: 30%;
+}
+.profile2 {
+  flex: 60%;
+}
+.profile2contain {
+  padding: 2vw;
+  padding-top: 8vw;
+}
+.aboutmediv {
+  padding: 4vw;
+}
+.description {
+  font-size: 1.5vw;
+  text-align: justify;
+}
