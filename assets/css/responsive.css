@@ -428,7 +428,7 @@ textarea::placeholder{
         padding: 0rem;
     }
     .container{
-        background-size: contain;
+        background-size: cover;
     }
     .cardtext{
         font-size: 3.5vw;
@@ -456,7 +456,7 @@ textarea::placeholder{
 
     }
     .container{
-        background-size: contain;
+        background-size: cover;
     }
 
 }
