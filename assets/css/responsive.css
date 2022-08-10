@@ -326,7 +326,7 @@ textarea::placeholder{
     
 }
 @media (max-width:680px) {
-    .menuli, .abouth2, .mylinks, .contactdes{
+    .menuli, .abouth2, .mylinks, .contactdes, contactdiv{
         display: none;
     }
     .abd, .acimg{
