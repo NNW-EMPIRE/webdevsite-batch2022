@@ -386,6 +386,7 @@ textarea::placeholder {
   .imgtxt {
     padding: 0;
     margin: 2vw;
+     font-size: 5vw;
   }
   .contact1 {
     flex: 100%;
