@@ -440,6 +440,8 @@ textarea::placeholder {
     width: 100%;
     align-items: center;
   }
+  .about5{
+    font-size:7.5vw;
 }
 @media (max-width: 1500px) {
   .imgtxt {
