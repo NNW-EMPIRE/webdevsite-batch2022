@@ -18,7 +18,6 @@ body {
   font-size: 4vw;
 }
 .menu {
-  float: left;
   width: 50%;
 }
 .menuli {
@@ -223,7 +222,6 @@ textarea::placeholder {
 }
 
 .active {
-  background-color: #04aa6d;
   color: white;
 }
 .studentflex {
@@ -294,13 +292,36 @@ textarea::placeholder {
   .logodiv {
     font-size: 2vw;
   }
+  .lg {
+    display: none;
+  }
 }
 @media (max-width: 680px) {
   .menuli,
   .abouth2,
   .mylinks,
   .contactdes,
-  contactdiv {
+  .contactdiv {
+    display: none;
+  }
+  .mobilenav {
+    width: 100%;
+    background-color: #4b0076c4;
+    margin-top: -2.5vh;
+  }
+  .mobileli {
+    height: 6vh;
+    width: 100%;
+  }
+
+  .mobilenavlink {
+    color: darkorange;
+    text-decoration: none;
+  }
+  .mobilenavlink:hover {
+    color: #333;
+  }
+  .appear {
     display: none;
   }
   .abd,
