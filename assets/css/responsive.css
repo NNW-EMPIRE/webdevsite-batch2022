@@ -386,7 +386,8 @@ textarea::placeholder {
   .imgtxt {
     padding: 0;
     margin: 2vw;
-     font-size: 5vw;
+     color: darkorange;
+     font-size: 7vw;
   }
   .contact1 {
     flex: 100%;
@@ -448,7 +449,7 @@ textarea::placeholder {
   .imgtxt {
     padding: 0;
     margin: 2vw;
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .container {
     background-size: cover;
